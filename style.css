@@ -196,7 +196,7 @@ header {
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation: animate 3.5s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 
 .bar .progress-line span {
@@ -206,7 +206,7 @@ header {
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+  animation: animate 1.5s 1.5s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 
 @keyframes animate {
